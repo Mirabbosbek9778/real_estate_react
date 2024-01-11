@@ -8,7 +8,7 @@ import Hero from "./components/Hero/Hero";
 import Residencies from "./components/Residencies/Residencies";
 import Value from "./components/Value/Value";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <div>
@@ -17,13 +17,13 @@ function App() {
         <Hero />
       </div>
       <Companies />
-      <Residencies/>
-      <Value/>
-      <Contact/>
-      <GetStarted/>
-      <Footer/>
+      <Residencies />
+      <Value />
+      <Contact />
+      <GetStarted />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
